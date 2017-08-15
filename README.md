@@ -1,21 +1,4 @@
-# vux-cl
+本脚手架参考大神的方案：https://github.com/airyland/vux/issues/1796：
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1.主要是根据淘宝的高清解决方案lib-flexible和vux组件结合，按照这个脚手架，设计出750px稿子，你在布局中直接使用px，webpack会自动转化rem，再根据淘宝的自适应方案达到自适应的效果。
+2.vux组件使用的是px在很多情况下显示效果不好，此方案也是一种解决办法
